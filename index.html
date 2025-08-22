@@ -31,10 +31,10 @@
 <body class="font-poppins">
     <!-- header secition -->
     
-    <header>
+    <header class="md:container mx-auto ">
         <!-- nav secition -->
         <nav>
-            <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar bg-base-100">
     <div class="navbar-start">
     <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -42,10 +42,10 @@
         </div>
         <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-primary">
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-primary ">
         <li class="home-primary font-extrabold"><a>Home</a></li>
         <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
+        <li><a>portfolio</a></li>
         <li><a>Blogs</a></li>
         <li><a>Contact Us</a></li>
         </ul>
@@ -53,10 +53,10 @@
     <a class="btn btn-ghost text-xl">Rinterio</a>
     </div>
     <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1 text-primary">
+    <ul class="menu menu-horizontal px-1 text-primary gap-5">
         <li class="home-primary font-extrabold"><a>Home</a></li>
         <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
+        <li><a>portfolio</a></li>
         <li><a>Blogs</a></li>
         <li><a>Contact Us</a></li>
     </ul>
@@ -72,11 +72,62 @@
         </div>
         </div>
         </nav>
+
+        <!-- banner section -->
+        <section class="mt-8 ">
+            <!-- banner image -->
+            <div><img class="max-w-sm rounded-lg md:mx-50 lg:mx-140" src="assets/banner.png" alt=""></div>
+
+            <!-- banner text -->
+            <div class="space-y-8 text-center m -10">
+                <h1 class="text-6xl font-extrabold">A barn house of this design has a striking appearance</h1>
+            <p class="home-primary">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows <br> that flood the space with natural light.</p>
+            <a class="btn btn-primary text-black font-bold text-ce">View Details</a>
+            </div>
+        </section>
     </header>
 
 
     <!-- main sectionn -->
-    <main></main>
+    <main class="md:container mx-auto">
+        <!-- design section -->
+        <section class="">
+
+            <!-- design section text -->
+            <h3 class="text-4xl font-bold ">We design thoughtful, liveable spaces</h3>
+            <p class="home-primary">The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <!-- one -->
+            <div class="mt-5">
+                <div class="flex bg-base-100 shadow-sm mt-3">
+  <figure>
+    <img class="p-6"
+      src="assets/commercial.png"
+      alt="commercial" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title home-primary">Commercial</h2>
+    <p class="text-primary">The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+</div>
+            <!-- two -->
+            <div class="mt-5">
+                <div class="flex bg-base-100 shadow-sm mt-3">
+  <figure>
+    <img class="p-6"
+      src="assets/residential.png"
+      alt="commercial" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title home-primary">Residential</h2>
+    <p class="text-primary"> The barn house captivates with its blend of rustic charm and modern.</p>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+    </main>
 
     <!-- footer section -->
     <footer></footer>
